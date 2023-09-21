@@ -68,6 +68,27 @@ a {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+.Confirmed {
+    width: 16px;
+    height: 16px;
+    background-color: rgb(2, 123, 37);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.Cancelled {
+    width: 16px;
+    height: 16px;
+    background-color: rgb(208, 14, 0);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
 .heading .date{
     font-size: 14px;
     line-height: 5px;
@@ -91,14 +112,22 @@ a {
     font-weight: 600;
 }
 
-.order-details{
 
+.product-quantity{
+    width: 40%;
 }
 .order-details .quantity{
+    width: 50%;
     font-weight: 600;
     color: red;
 }
 
+.product-quantity .img{
+    width: 50%;
+}
+.product-quantity .product-title-and-quantity{
+    width: 50%;
+}
 .order-details .total{
     font-weight: 600;
 }
@@ -108,3 +137,28 @@ a {
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     background-color: transparent;
 }
+
+
+
+.OrderStatus-buttons button{
+    width: 100%;
+    display: block;
+    margin:7px 0;
+    font-size: 13px;
+    padding: 3px;
+    border: none;
+    outline: none;
+    background-color: gainsboro;
+    font-weight: 500;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.OrderStatus-buttons button:hover{
+    background-color: green;
+    color: white;
+}
+
