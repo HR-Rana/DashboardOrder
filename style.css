@@ -61,7 +61,7 @@ a {
 .processing {
     width: 16px;
     height: 16px;
-    background-color: gainsboro;
+    background-color: rgb(120, 0, 167);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -88,7 +88,16 @@ a {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-
+.Pending{
+     width: 16px;
+    height: 16px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 .heading .date{
     font-size: 14px;
     line-height: 5px;
